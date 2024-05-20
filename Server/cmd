@@ -1,0 +1,9 @@
+create server folder 
+create server.jsx file
+npm init 
+npm i nodemon --save-dev
+npm i express body-parser cars mongoose --save
+npm i dotenv --save
+    --> create .env file
+    --> require('dotenv').config();
+    const PORT = process.env.PORT;
